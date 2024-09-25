@@ -29,9 +29,9 @@ class CookieClicker {
 
     updateUI() {
         this.scoreElement.innerText = `Score: ${this.score}`;
-        this.upgradeButton.innerText = `Koop Upgrade (kost ${this.upgradeCost} punten)`;
+        this.upgradeButton.innerText = `Cursor (price ${this.upgradeCost})`;
 
-        
+
         if (this.score >= this.upgradeCost) {
             this.upgradeButton.disabled = false;
         } else {
