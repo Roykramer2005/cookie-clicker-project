@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+}
+#cookie {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 290px;
+    cursor: pointer;
+}
+#score {
+    margin-top: 35px;
+    font-size: 30px;
+}
+#upgrade {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;">
+Koop Upgrade (kost 10 punten)
+}
